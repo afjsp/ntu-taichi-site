@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第九堂課 · 2026 春季 · 臺大太極</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a class="site-brand" href="../index.html">
+      <span class="site-brand-mark">極</span>
+      <span>
+        <span class="site-brand-text">臺大太極</span><br>
+        <span class="site-brand-sub">NTU TAI CHI</span>
+      </span>
+    </a>
+    <ul class="site-menu">
+      <li><a class="" href="../index.html">首頁</a></li>
+      <li><a class="" href="../semester2.html">暑期班</a></li>
+      <li class="has-dropdown">
+        <a class="active" href="../semester1.html">歷史課程</a>
+        <div class="nav-dropdown">
+          <a class="active" href="../semester1.html">2026 春季（第七–十五堂）</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="breadcrumb">
+  <a href="../index.html">首頁</a><span class="sep">/</span>
+  <a href="../semester1.html">2026 春季</a><span class="sep">/</span>
+  第九堂課
+</div>
+
+<div class="class-page">
+  <div class="class-title-bar">
+    <div class="num-deco">九</div>
+    <h1>第九堂課</h1>
+    <div class="date">2026.04.30</div>
+  </div>
+
+  <div class="class-layout no-side">
+    <main class="class-content-area">
+      <section class="tab-panel active" data-panel="brief">
+        <div class="note-content">
+          <p>重點可歸納如下：</p>
+<h3>一、 練習的心法與狀態</h3>
+<ul>
+<li><strong>身心放鬆與覺知</strong>：老師強調練習前應進行「觀無極」，即快速掃描全身肌肉並微調至放鬆狀態。練習時應保持呼吸順暢與內在安定，將意識回到「知道」本身，觀察環境與身體的變化（如溫度、風感、體溫）。</li>
+<li><strong>量力而為</strong>：動作若跟不上，建議先以<strong>「眼睛練習」</strong>為主，放鬆地觀察，或在腦中進行細部的動作模擬（演練）。強調「慢」與「不受傷」是首要前提，應從能做到的動作開始練習，不要勉強做超出體能的動作。</li>
+</ul>
+<h3>二、 重點動作解析</h3>
+<ul>
+<li><strong>重心移動與穩定</strong>：在做「進身跟步，回落半步」等前進後退動作時，關鍵在於重心隨膝蓋往前以達到單腳站立的穩定。若腿部肌力不足，可簡化動作（腳微提即放），避免受傷並專注感受肌肉變化。</li>
+<li><strong>搬攔棰（Ban Lan Chui）</strong>：</li>
+</ul>
+<p>包含<strong>「踐步」（踩約 30-45 度角）與「日字」</strong>拳。</p>
+<p>動作需配合「鬆胯」（先鬆右胯再鬆左胯），並確保膝蓋先到位，重心再跟上。</p>
+<p>強調左手左腳同時出去，重心保持在後腳。</p>
+<h3>三、 新進度教學：雲手（Yun Shou）</h3>
+<ul>
+<li><strong>架構</strong>：雲手通常鑲嵌在「單鞭」動作之間，形成<strong>「單鞭—雲手—單鞭」</strong>的組合。</li>
+<li><strong>手部要領</strong>：</li>
+</ul>
+<p>包含<strong>「採手」（手往下）與「抄手」</strong>（手往上）的循環。</p>
+<p>雙手在<strong> 45 度角</strong>時交會（重疊），視線跟隨抄手的手指或掌面透過去。</p>
+<ul>
+<li><strong>腋下要留空間</strong>：手肘不可超過肩線，避免夾腋，動作幅度其實比想像中精簡，主要靠轉腰帶動。</li>
+<li><strong>步法</strong>：雲手的腳步是平行的<strong>「螃蟹走路」</strong>，持續往左方移動（本課練習往左移三次）。移動時膝蓋保持微彎，重心在左右腳間切換。</li>
+</ul>
+<h3>四、 課後練習建議</h3>
+<ul>
+<li><strong>日常生活練習</strong>：可以在電腦桌前練習手部比劃，或在平時練習「螃蟹走路」以加強腿部重心移動的穩定性。</li>
+<li><strong>輔助複習</strong>：建議學生多看影片以熟悉動作架構，特別是轉方向與手腳同步的細節。</li>
+</ul>
+        </div>
+      </section>
+
+      <div class="class-pager">
+        <a href="s1spr_08.html">← 第八堂</a>
+        <a href="s1spr_10.html">第十堂 →</a>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function () {
+  const tabs = document.querySelectorAll('.side-tab');
+  const panels = document.querySelectorAll('.tab-panel');
+  tabs.forEach(t => {
+    t.addEventListener('click', () => {
+      const target = t.dataset.tab;
+      tabs.forEach(x => x.classList.remove('active'));
+      panels.forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      const panel = document.querySelector('.tab-panel[data-panel="' + target + '"]');
+      if (panel) panel.classList.add('active');
+      const area = document.querySelector('.class-content-area');
+      if (area && window.innerWidth < 880) area.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+})();
+</script>
+<script src="../assets/nav.js"></script>
+
+<footer class="site-footer">
+  <span class="seal-mark">極</span>&nbsp;臺大太極拳課程線上講義&nbsp;<span class="seal-mark">極</span><br>
+  © 2026 — 2026 春季課程要點整理<br>
+  <span class="footer-org">臺灣大學教職員工文康活動推行委員會 · 太極武藝分會</span>
+</footer>
+</body>
+</html>
